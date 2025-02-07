@@ -1,0 +1,9 @@
+1- Shallow Copy:
+
+A shallow copy happens after you copy the reference of an object to a new variable. In this process, only the top-level properties are copied, while nested objects or arrays still reference the original memory location. This means that if you change the nested properties in one object, those changes will reflect within the other because they share the same memory reference.
+
+ 
+2- Deep Copy:
+
+A deep copy, on the other hand, creates a completely independent copy of the object, including all nested objects or arrays. This ensures that changes made to one object do not affect the other. Each object is stored in a separate memory location, making them entirely independent.
+
